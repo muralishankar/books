@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Landing Page</title>
+    <style>
+        /* Inline CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Welcome to Our Landing Page</h1>
+</div>
+
+<div class="content">
+    <h2>About Us</h2>
+    <p>This is a sample landing page created with HTML, CSS, and JavaScript.</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+</div>
+
+<div class="footer">
+    <p>© 2024 Sample Company</p>
+</div>
+
+<script>
+    // Inline JavaScript
+    function showMessage() {
+        document.getElementById("message").innerHTML = "Hello, welcome to our website!";
+    }
+</script>
+
+</body>
+</html>
